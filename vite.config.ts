@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "https://github.com/aashif000/Rick_and_Morty.github.io.git",
   server: {
     host: "::",
     port: 8080,
